@@ -1,7 +1,9 @@
 C++ Project Template
 ====================
 
-This is a simple project template that uses [CMake](https://cmake.org/), the package manager [Conan](https://conan.io/), and the test library [Catch](https://github.com/catchorg/Catch2).
+This is a simple project template that uses [CMake](https://cmake.org/), 
+the package manager [Conan](https://conan.io/), 
+and the test library [Catch](https://github.com/catchorg/Catch2).
 
 Its main purpose is to provide a project structure that is ready to go with only minimal adjustments depending on the project itself.
 
