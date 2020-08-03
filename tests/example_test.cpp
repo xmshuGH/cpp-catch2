@@ -10,7 +10,7 @@ TEST_CASE("Test with zero", "[classic]")
    REQUIRE(libname::addFun(-33,33) == 0);
    REQUIRE(libname::addFun(-1,-1) == -2);
    REQUIRE(libname::addFun(-1,-1) != 1);
-   REQUIRE(libname::addFun(-1,-2) == -3);
+   REQUIRE(libname::addFun(1,2) == 3);
    
 }
 
