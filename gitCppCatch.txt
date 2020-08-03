@@ -1,0 +1,18 @@
+  if folder exist already and to remove 
+> rm -rf cpp-project
+
+==================
+git clone --recurse-submodules https://github.com/jblort/cpp-project-template
+
+this project depends on CMake and Conan, which need to be installed prior to using this template.
+
+CMake installation instructions
+Conan installation instructions
+
+Modify the name of the project in the root CMakeLists.txt.
+
+From the root of the project:
+
+>mkdir build && cd build
+>conan install .. && cmake .. && cmake --build .
+Run tests with >ctest -V
